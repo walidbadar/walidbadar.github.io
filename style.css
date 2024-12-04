@@ -1,0 +1,175 @@
+/* Basic Reset and Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-gray-50 {
+  background-color: #f9fafb;
+}
+
+.bg-blue-600 {
+  background-color: #2563eb;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-blue-600 {
+  color: #2563eb;
+}
+
+.text-blue-800 {
+  color: #1e40af;
+}
+
+.text-gray-600 {
+  color: #4b5563;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.px-4, .py-4, .py-8, .p-8 {
+  padding: 1rem;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.space-x-4 {
+  margin-right: 1rem;
+}
+
+.space-y-6 {
+  margin-top: 1.5rem;
+}
+
+.bg-orange-50 {
+  background-color: #fff8e1;
+}
+
+.text-orange-800 {
+  color: #9a6e3d;
+}
+
+.hover\:underline:hover {
+  text-decoration: underline;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.transition-all {
+  transition: all 0.3s ease-in-out;
+}
+
+.hover\:shadow-md:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bg-blue-100 {
+  background-color: #ebf8ff;
+}
+
+.bg-gray-200 {
+  background-color: #e5e7eb;
+}
+
+.bg-purple-50 {
+  background-color: #f3e8ff;
+}
+
+.bg-purple-200 {
+  background-color: #e9d5ff;
+}
+
+.bg-green-50 {
+  background-color: #f0fdf4;
+}
+
+.bg-orange-200 {
+  background-color: #fdcb72;
+}
+
+.text-blue-700 {
+  color: #3b82f6;
+}
+
+.text-gray-700 {
+  color: #374151;
+}
+
+#profile-name {
+  font-size: 2rem;
+}
+
+#profile-title {
+  font-size: 1.25rem;
+}
+
+.section-btn {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border-radius: 9999px;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #f3f4f6;
+  color: #1f2937;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.section-btn:hover {
+  background-color: #e0f2fe;
+}
+
+.section-btn.active {
+  background-color: #2563eb;
+  color: white;
+}
